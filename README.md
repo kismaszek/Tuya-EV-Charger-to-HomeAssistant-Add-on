@@ -1,6 +1,9 @@
 # Home Assistant Add-on: Gocean EV Charger (Tuya)
 
 This Home Assistant add-on integrates the **Gocean EV Charger L6 Pro** (Tuya-based) and publishes real-time data to **MQTT** so that Home Assistant can automatically discover entities.
+### Device
+![HA Entities](docs/device.png)
+
 
 ## Features
 - Works in **Cloud** mode (via Tuya IoT API) or **Local** mode (via TinyTuya).
