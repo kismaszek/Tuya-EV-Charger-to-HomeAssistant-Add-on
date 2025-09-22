@@ -1,6 +1,6 @@
 {
   "name": "Gocean EV Charger",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "slug": "gocean_ev",
   "description": "Read data from Gocean EV Charger L6 Pro (Tuya) and publish as MQTT entities",
   "arch": ["amd64", "armv7", "aarch64"],
@@ -22,7 +22,8 @@
     "mqtt_password": "",
     "mqtt_base_topic": "",
     "mqtt_discovery": true,
-    "force_discovery_on_start": true
+    "force_discovery_on_start": true,
+    "log_status": false
   },
   "schema": {
     "mode": "str",
@@ -40,6 +41,7 @@
     "mqtt_password": "str?",
     "mqtt_base_topic": "str?",
     "mqtt_discovery": "bool",
-    "force_discovery_on_start": "bool"
+    "force_discovery_on_start": "bool",
+    "log_status": "bool"
   }
 }
